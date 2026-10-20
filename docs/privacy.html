@@ -1,20 +1,14 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Purrgress Privacy Policy</title>
-  <style>
-    :root { color-scheme: light; }
-    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 40px; line-height: 1.5; color: #111; }
-    a { color: #0b63ce; }
-  </style>
-</head>
-<body>
-  <h1>Privacy Policy</h1>
-  <p>Purrgress does not collect, store, or share any personal data.</p>
-  <p>All data stays on the user’s device. No analytics or tracking are used.</p>
-  <p>For support, please submit an issue on GitHub:</p>
-  <p><a href="https://github.com/shashaontherun/purrgress_public/issues">https://github.com/shashaontherun/purrgress_public/issues</a></p>
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Purrgress privacy — Local progress and AI data flow</title><meta name="description" content="Purrgress stores progress locally. Current AI suggestions send the entered goal to DeepSeek. Read the current data flow and upcoming optional measurement changes.">
+<link rel="canonical" href="https://tisshasha.github.io/purrgress_public/privacy.html"><link rel="stylesheet" href="site.css"><meta name="theme-color" content="#f5f3eb">
+<meta property="og:type" content="website"><meta property="og:title" content="Purrgress privacy — Local progress and AI data flow"><meta property="og:description" content="Purrgress stores progress locally. Current AI suggestions send the entered goal to DeepSeek. Read the current data flow and upcoming optional measurement changes."><meta property="og:url" content="https://tisshasha.github.io/purrgress_public/privacy.html"><meta property="og:image" content="https://tisshasha.github.io/purrgress_public/app-icon.png">
+</head><body><header><div class="wrap"><nav aria-label="Main"><a class="brand" href="./"><img src="app-icon.png" alt="" width="36" height="36">Purrgress</a><a href="how-it-works.html">How it works</a><a href="pricing.html">Pricing</a><a href="support.html">Support</a></nav></div></header>
+<main class="wrap">
+<article class="article"><p class="eyebrow">Privacy / Updated October 20, 2026</p><h1>Your goals deserve clear boundaries.</h1>
+<h2>Current released app</h2><p>Your World, Spot titles, progress, completed records and reminder settings are saved locally on your device. The current app has no integrated advertising or third-party analytics SDK.</p>
+<h2>AI sends your entered goal off the device</h2><p>When the currently distributed version requests AI suggestions during World creation, it sends the entered goal to <strong>DeepSeek</strong> over HTTPS. The provider processes that text to generate steps; it is not accurate to say that all data stays on your device. Avoid entering sensitive or confidential information.</p><p>DeepSeek’s handling is governed by its <a href="https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html">privacy policy</a>. Purrgress does not control the provider’s retention policy. Saved progress and completed records are not included in this AI request.</p>
+<h2>Changes being prepared for the next version</h2><p>The next version is being built with an explicit choice between manual local planning and AI suggestions. AI requests will pass through our service so provider keys stay off the device and successful-use allowances can be enforced. Goal text is used to produce suggestions; it is excluded from usage-event payloads.</p><p>Optional basic usage sharing is being added for events such as opening the app, creating a World, confirming progress and reaching the purchase flow. It will be off by default and can be turned off in Settings. Goal text, Spot titles, contacts and advertising identifiers are not included. These changes are not described as already active in the current release.</p>
+<h2>Purchases</h2><p>Apple processes App Store billing. Purrgress does not receive your card details. The forthcoming in-app unlock will use Apple-signed purchase information to verify and restore core access. The planned AI service will verify Apple purchase information and retain a pseudonymous allowance ledger so use can be restored rather than reset by reinstalling.</p>
+<h2>This website and support</h2><p>This static website uses no advertising pixels or analytics cookies. GitHub Pages hosts it and may process request information under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub’s privacy statement</a>. Support issues are public: do not include goals, receipts or private screenshots.</p>
+<h2>Control and questions</h2><p>Local app data can be removed by deleting the app and its data; this may permanently remove progress. For questions, use <a href="https://github.com/tisshasha/purrgress_public/issues">Purrgress support</a> without posting personal information. Before the new service is released, this policy and App Store privacy answers will be updated to reflect the deployed retention and deletion controls.</p></article></main><footer><div class="wrap"><a href="privacy.html">Privacy</a><a href="support.html">Support</a><a href="index-zh.html" lang="zh-CN">中文</a><p>© 2026 Shasha Xie · Product information checked October 20, 2026.</p></div></footer></body></html>
